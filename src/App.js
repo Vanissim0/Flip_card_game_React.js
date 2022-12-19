@@ -3,12 +3,14 @@ import './App.css';
 import SingleCard from './components/SingleCard';
 
 const cardImages = [
-  {"src": "/img/helmet-1.png", matched: false},
-  {"src": "/img/potion-1.png", matched: false},
-  {"src": "/img/ring-1.png", matched: false},
-  {"src": "/img/scroll-1.png", matched: false},
-  {"src": "/img/shield-1.png", matched: false},
-  {"src": "/img/sword-1.png", matched: false}
+  {"src": "/img/card_red.png", matched: false},
+  {"src": "/img/card_orange.png", matched: false},
+  {"src": "/img/card_yellow.png", matched: false},
+  {"src": "/img/card_green.png", matched: false},
+  {"src": "/img/card_blue.png", matched: false},
+  {"src": "/img/card_grey.png", matched: false},
+  {"src": "/img/card_violet.png", matched: false},
+  {"src": "/img/card_pink.png", matched: false}
 ];
 
 function App() {
@@ -20,7 +22,7 @@ function App() {
   const [disabled, setDisabled] = useState(false);
 
 
-  // shuffle cards
+
   const shuffleCards = () => {
     const shuffleCards = [...cardImages, ...cardImages]
       .sort(()=> Math.random() - 0.5)
@@ -32,12 +34,14 @@ function App() {
       setTurns(0)
   }
 
-  // handle a choice
+
+
   const handleChoice = (card) => {
     choiceOne ? setChoiceTwo(card) : setChoiceOne(card)
   }
 
-  //compare 2 selected cards
+
+
   useEffect(() => {
 
     if (choiceOne && choiceTwo) {
@@ -70,14 +74,15 @@ function App() {
     setDisabled(false)
   }
 
-  // start a new game automagically
+
+  
   useEffect(() => {
     shuffleCards()
   }, [])
 
   return (
     <div className='App'>
-      <h1>Magic Match</h1>
+      <h1>Flip card</h1>
       <button onClick={ shuffleCards }>New Game</button>
 
       <div className='card-grid'>

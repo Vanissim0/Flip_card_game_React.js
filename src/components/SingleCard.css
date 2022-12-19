@@ -1,5 +1,6 @@
 .card {
     position: relative;
+
 }
 .card img {
     width: 100%;
@@ -24,3 +25,4 @@
     transform: rotateY(90deg);
     transition-delay: 0s;
 }
+
