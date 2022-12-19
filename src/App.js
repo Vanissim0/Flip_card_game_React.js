@@ -75,7 +75,6 @@ function App() {
   }
 
 
-  
   useEffect(() => {
     shuffleCards()
   }, [])
@@ -95,6 +94,7 @@ function App() {
             disabled={disabled}
           />
         ))}
+        
       </div>
       <p>Turns: {turns}</p>
     </div>

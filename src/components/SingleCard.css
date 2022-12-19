@@ -1,12 +1,19 @@
 .card {
+    width: 1;
     position: relative;
-
+    border-radius: 6px;
+    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.1),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.15),
+    -5px -5px 15px rgba(255, 255, 255, 0.1 );
 }
 .card img {
     width: 100%;
     display: block;
     border: 2px solid #fff;
     border-radius: 6px;
+    inset: 8px;
+    
 }
 .card .front {
     transform: rotateY(90deg);
