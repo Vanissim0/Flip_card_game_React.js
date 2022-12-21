@@ -3,14 +3,14 @@ import './App.css';
 import SingleCard from './components/SingleCard';
 
 const cardImages = [
-  {"src": "/img/card_red.png", matched: false},
-  {"src": "/img/card_orange.png", matched: false},
-  {"src": "/img/card_yellow.png", matched: false},
-  {"src": "/img/card_green.png", matched: false},
-  {"src": "/img/card_blue.png", matched: false},
-  {"src": "/img/card_grey.png", matched: false},
-  {"src": "/img/card_violet.png", matched: false},
-  {"src": "/img/card_pink.png", matched: false}
+  {"src": "./img/card_red.png", matched: false},
+  {"src": "./img/card_orange.png", matched: false},
+  {"src": "./img/card_yellow.png", matched: false},
+  {"src": "./img/card_green.png", matched: false},
+  {"src": "./img/card_blue.png", matched: false},
+  {"src": "./img/card_grey.png", matched: false},
+  {"src": "./img/card_violet.png", matched: false},
+  {"src": "./img/card_pink.png", matched: false}
 ];
 
 function App() {
