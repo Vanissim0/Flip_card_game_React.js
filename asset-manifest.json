@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Flip_card_game_React.js/static/css/main.81916e2b.css",
-    "main.js": "/Flip_card_game_React.js/static/js/main.989e7fea.js",
-    "index.html": "/Flip_card_game_React.js/index.html",
-    "main.81916e2b.css.map": "/Flip_card_game_React.js/static/css/main.81916e2b.css.map",
-    "main.989e7fea.js.map": "/Flip_card_game_React.js/static/js/main.989e7fea.js.map"
+    "main.css": "/static/css/main.81916e2b.css",
+    "main.js": "/static/js/main.16d4dcdc.js",
+    "index.html": "/index.html",
+    "main.81916e2b.css.map": "/static/css/main.81916e2b.css.map",
+    "main.16d4dcdc.js.map": "/static/js/main.16d4dcdc.js.map"
   },
   "entrypoints": [
     "static/css/main.81916e2b.css",
-    "static/js/main.989e7fea.js"
+    "static/js/main.16d4dcdc.js"
   ]
 }
